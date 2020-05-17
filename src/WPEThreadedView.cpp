@@ -168,7 +168,7 @@ void WPEThreadedView::initialize(GstWpeSrc* src, GstGLContext* context, GstGLDis
     std::call_once(s_loaderFlag,
         [] {
 #if defined(WPE_BACKEND_CHECK_VERSION) && WPE_BACKEND_CHECK_VERSION(0, 2, 0)
-            wpe_loader_init("libWPEBackend-fdo-0.1.so");
+            wpe_loader_init("libWPEBackend-fdo-1.0.so");
 #endif
         });
 
