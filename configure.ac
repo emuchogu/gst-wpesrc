@@ -69,8 +69,8 @@ PKG_CHECK_MODULES(SOUP, [
 ])
 
 PKG_CHECK_MODULES(WPE, [
-  wpe-webkit-0.1 >= 2.22
-  wpebackend-fdo-0.1
+  wpe-webkit-2.28.2 >= 3.0
+  wpebackend-fdo-1.6
   egl
   xkbcommon
 ], [
